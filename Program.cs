@@ -10,14 +10,16 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
-            //UC-3 Ability to create Linked List by appending 30 and 56 to 70
+            //UC-5 Ability to Delete the First Element in the LinkedList
             Console.WriteLine("welcome to LinkedList");
 
             LinkedList linkedlist = new LinkedList();
             linkedlist.Append(56);
             linkedlist.Append(30);
             linkedlist.Append(70);
-            linkedlist.Display();
+
+            linkedlist.DeleteTheFirst();
+          
            Console.ReadLine();
         }
     }
