@@ -40,6 +40,10 @@ namespace LinkedList
             Console.WriteLine("New Node Added in LinkedList: " + node2.data);
             Console.WriteLine("--------------------------------------------");
         }
+        public void Append(int data)
+        {
+            AddLast(data);
+        }
         public void Display()
         {
 
